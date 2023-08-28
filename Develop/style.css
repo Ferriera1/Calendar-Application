@@ -3,6 +3,14 @@ body {
   font-size: 16px;
 }
 
+#headerClock {
+  font-size: 15px;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
 textarea {
   background: transparent;
   border: none;
