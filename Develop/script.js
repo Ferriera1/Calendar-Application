@@ -28,7 +28,7 @@ $(function () {
     let textVal = $(this).siblings("row").val();
     let timeVal = $(this).parent().attr("id").split("-")[1];
     localStorage.setItem(timeVal,textVal);
-    localStorage.getItem(textVal);
+    document.getElementsByClassName("fas fa-save").innerHTML = localStorage.getItem(textVal);
   });
 
   // TODO: Add code to apply the past, present, or future class to each time
